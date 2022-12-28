@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.wrapper-calculator {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 350px;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.calculator .infor {
+	display: flex;
+	max-width: 340px;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.wrapper-calculator .jumbo {
+	width: 166px;
+	margin: 0.1em;
+}
+
+.wrapper-calculator #equals {
+	height: 136px;
+	transform: translateY(-52%);
+}
+
+.calculator .outPutScreen {
+	font-size: 2em;
+	font-family: digital;
+	color: rgb(117, 0, 0);
+	text-align: right;
+	line-height: 35px;
+}
+.calculator .formulaScreen {
+	min-height: 1.5em;
+	font-family: digital;
+	font-size: 20px;
+	color: orange;
+	text-align: right;
+	vertical-align: text-top;
+	line-height: 20px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
